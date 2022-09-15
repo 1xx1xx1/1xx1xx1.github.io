@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
-<script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    <meta charset="UTF-8">
+    <title>luyunhao </title>
+    <script src="script.js"></script>
+    <style>
+        #outer{
+            width:510px;
+        }
+        #outer div{
+            height:100px;
+            width:100px;
+            background-color: #787c78;
+            float: left;
+            line-height:100px;
+            text-align: center;
+            margin-left:2px;
+            margin-top:2px;
+        }
+    </style>
 </head>
 <body>
-<div id="app">
-  <p>{{ message }}</p>
+<div id="outer">
+    <div class="inner" onclick="ChangeColor('0')"></div>
+    <div class="inner" onclick="ChangeColor('1')"></div>
+    <div class="inner" onclick="ChangeColor('2')"></div>
+    <div class="inner" onclick="ChangeColor('3')"></div>
+    <div class="inner" onclick="ChangeColor('4')"></div>
+    <div class="inner" onclick="ChangeColor('5')"></div>
+    <div class="inner" onclick="ChangeColor('6')"></div>
+    <div class="inner" onclick="ChangeColor('7')"></div>
+    <div class="inner" onclick="ChangeColor('8')"></div>
+    <div class="inner" onclick="ChangeColor('9')"></div>
+    <div class="inner" onclick="ChangeColor('10')"></div>
+    <div class="inner" onclick="ChangeColor('11')"></div>
+    <div class="inner" onclick="ChangeColor('12')"></div>
+    <div class="inner" onclick="ChangeColor('13')"></div>
+    <div class="inner" onclick="ChangeColor('14')"></div>
+    <div class="inner" onclick="ChangeColor('15')"></div>
+    <div class="inner" onclick="ChangeColor('16')"></div>
+    <div class="inner" onclick="ChangeColor('17')"></div>
+    <div class="inner" onclick="ChangeColor('18')"></div>
+    <div class="inner" onclick="ChangeColor('19')"></div>
+    <div class="inner" onclick="ChangeColor('20')"></div>
+    <div class="inner" onclick="ChangeColor('21')"></div>
+    <div class="inner" onclick="ChangeColor('22')"></div>
+    <div class="inner" onclick="ChangeColor('23')"></div>
+    <div class="inner" onclick="ChangeColor('24')"></div>
 </div>
-
-<script>
-new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue.js!'
-  }
-})
-</script>
+<div id="log"></div>
 </body>
 </html>
